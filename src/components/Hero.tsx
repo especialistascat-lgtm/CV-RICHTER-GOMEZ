@@ -75,11 +75,13 @@ export const Hero: React.FC<HeroProps> = ({
 
   // Career milestones for the timeline window (in pure Spanish)
   const careerMilestones = [
-    { period: '2006 — 2010', role: 'Ingeniero de Proyectos AT', entity: 'Subestaciones de Potencia & Líneas de Transmisión 60/220 kV' },
-    { period: '2011 — 2015', role: 'Especialista en Mantenimiento de Potencia', entity: 'Transformadores de Potencia, Celdas MT/AT & Interruptores' },
-    { period: '2016 — 2020', role: 'Consultor Senior de Eficiencia Energética', entity: 'Auditorías ISO 50001, Diagnósticos de Potencia & Gran Industria' },
-    { period: '2021 — 2024', role: 'Auditor Líder SIG & Fiscalización SSOMA', entity: 'Supervisión Técnica y Cumplimiento Normativo OSINERGMIN / OEFA' },
-    { period: '2024 — Presente', role: 'Consultor Principal en Energía & Potencia', entity: 'Descarbonización, Contratos PPA, Energías Renovables & SEIN' },
+    { period: '2025 — 2026', role: 'Gerente de Gestión de la Energía', entity: 'Departamento de Gestión Energética (Año Presente 2026)' },
+    { period: '2022 — 2025', role: 'Gerente de Proyectos, Mantenimiento', entity: 'Gerencia de Proyectos & Mantenimiento Industrial' },
+    { period: '2021 — 2022', role: 'Coordinador de Operación, Mantenimiento y SST', entity: 'Operaciones & Seguridad SST Integral (ISO 45001)' },
+    { period: '2018 — 2020', role: 'Especialista en Evaluación', entity: 'Departamento de Gestión de Mantenimiento' },
+    { period: '2007 — 2017', role: 'Especialista en Equipos de Patio (EPA)', entity: 'Patios de Alta Tensión & Subestaciones (60/138/220 kV)' },
+    { period: '2007', role: 'Técnico Docente Profesional', entity: 'Institución de Formación Técnica Superior en Potencia' },
+    { period: '2002 — 2007', role: 'Supervisor de Taller Eléctrico / Planeamiento', entity: 'Taller Eléctrico Central & Soporte de Planeamiento' },
   ];
 
   // Premier industrial partners & sectors (in pure Spanish)
@@ -658,7 +660,7 @@ export const Hero: React.FC<HeroProps> = ({
                   </span>
                 </div>
                 <span className="text-[10px] font-mono text-amber-300 font-semibold bg-amber-950/70 px-2 py-0.5 rounded border border-amber-500/30">
-                  2006 — PRESENTE
+                  2002 — 2026 (24 AÑOS)
                 </span>
               </div>
 
@@ -696,7 +698,7 @@ export const Hero: React.FC<HeroProps> = ({
                     onClick={() => scrollToSection('experiencia')}
                     className="text-emerald-300 hover:text-emerald-200 font-semibold flex items-center gap-1.5 transition-colors group/btn"
                   >
-                    <span>Ver detalle completo de 18 años de experiencia</span>
+                    <span>Ver detalle completo de 24 años de trayectoria (2002 — 2026)</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover/btn:translate-x-1 transition-transform" />
                   </button>
                 </div>

@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-              Más de 18 años de experiencia en mantenimiento en alta tensión (AT/MT), consultoría en energía, auditorías de eficiencia energética (ISO 50001) y supervisión integral SSOMA.
+              Más de 24 años de trayectoria profesional ininterrumpida (2002 — 2026) en gestión de la energía, mantenimiento en alta tensión (EPA), proyectos electromecánicos y seguridad SST.
             </p>
 
             <div className="flex items-center gap-2 text-emerald-400 font-mono text-[11px]">
